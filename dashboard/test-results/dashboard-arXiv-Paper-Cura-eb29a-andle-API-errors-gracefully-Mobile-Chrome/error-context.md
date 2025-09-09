@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - button "previous" [disabled] [ref=e8]:
+            - img "previous" [ref=e9]
+          - generic:
+            - generic: 1/
+            - generic: "2"
+          - button "next" [ref=e11] [cursor=pointer]:
+            - img "next" [ref=e12] [cursor=pointer]
+        - generic [ref=e15]:
+          - img [ref=e16]
+          - generic "Latest available version is detected (15.5.2).": Next.js 15.5.2
+          - generic: Turbopack
+      - dialog "Runtime TypeError" [ref=e19]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e26]: Runtime TypeError
+              - generic [ref=e27]:
+                - button "Copy Error Info" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29] [cursor=pointer]
+                - button "No related documentation found" [disabled] [ref=e31]:
+                  - img [ref=e32]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e34] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                  - img [ref=e35] [cursor=pointer]
+            - generic:
+              - paragraph: Cannot read properties of undefined (reading 'database')
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - paragraph [ref=e46]:
+                - img [ref=e48]
+                - generic [ref=e51]: src/components/StatsOverview.tsx (207:36) @ StatsOverview
+                - button "Open in editor" [ref=e52] [cursor=pointer]:
+                  - img [ref=e54] [cursor=pointer]
+              - generic [ref=e57]:
+                - generic [ref=e58]:
+                  - generic [ref=e60]: 205 |
+                  - generic [ref=e62]: <
+                  - generic [ref=e63]: div
+                  - generic [ref=e64]: className
+                  - generic [ref=e65]: =
+                  - generic [ref=e66]: "\"flex items-center space-x-3\""
+                  - generic [ref=e67]: ">"
+                - generic [ref=e68]:
+                  - generic [ref=e70]: 206 |
+                  - generic [ref=e72]: <
+                  - generic [ref=e73]: div
+                  - generic [ref=e74]: className
+                  - generic [ref=e75]: =
+                  - generic [ref=e76]: "{"
+                  - generic [ref=e77]: "`p-2 rounded-lg ${"
+                - generic [ref=e78]:
+                  - generic [ref=e79]: ">"
+                  - generic [ref=e80]: 207 |
+                  - generic [ref=e82]: healthData?.services.database.status === "healthy"
+                - generic [ref=e83]:
+                  - generic [ref=e85]: "|"
+                  - generic [ref=e87]: ^
+                - generic [ref=e88]:
+                  - generic [ref=e90]: 208 |
+                  - generic [ref=e92]: "? \"text-green-600 bg-green-100 dark:bg-green-900/20\""
+                - generic [ref=e93]:
+                  - generic [ref=e95]: 209 |
+                  - generic [ref=e97]: ": \"text-red-600 bg-red-100 dark:bg-red-900/20\""
+                - generic [ref=e98]:
+                  - generic [ref=e100]: 210 |
+                  - generic [ref=e102]: "}`"
+                  - generic [ref=e103]: "}"
+                  - generic [ref=e104]: ">"
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - paragraph [ref=e107]:
+                  - text: Call Stack
+                  - generic [ref=e108]: "14"
+                - button "Show 12 ignore-listed frame(s)" [ref=e109] [cursor=pointer]:
+                  - text: Show 12 ignore-listed frame(s)
+                  - img [ref=e110] [cursor=pointer]
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - text: StatsOverview
+                  - button "Open StatsOverview in editor" [ref=e114] [cursor=pointer]:
+                    - img [ref=e115] [cursor=pointer]
+                - generic: src/components/StatsOverview.tsx (207:36)
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - text: Dashboard
+                  - button "Open Dashboard in editor" [ref=e119] [cursor=pointer]:
+                    - img [ref=e120] [cursor=pointer]
+                - generic: src/app/page.tsx (194:15)
+        - generic [ref=e122]:
+          - generic [ref=e123]: "1"
+          - generic [ref=e124]: "2"
+    - generic [ref=e129] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e130] [cursor=pointer]:
+        - img [ref=e131] [cursor=pointer]
+      - generic [ref=e134] [cursor=pointer]:
+        - button "Open issues overlay" [ref=e135] [cursor=pointer]:
+          - generic:
+            - generic: "2"
+          - generic: Issue
+        - button "Collapse issues badge" [ref=e136] [cursor=pointer]:
+          - img [ref=e137] [cursor=pointer]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e141]'
+```

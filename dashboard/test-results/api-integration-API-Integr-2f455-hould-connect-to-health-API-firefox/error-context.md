@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic [ref=e14]:
+            - heading "arXiv Paper Curator" [level=1] [ref=e15]
+            - paragraph [ref=e16]: Advanced RAG System Dashboard
+        - generic [ref=e17]:
+          - button [ref=e18]:
+            - img [ref=e19]
+          - generic [ref=e25]: System Issues
+    - navigation [ref=e26]:
+      - generic [ref=e28]:
+        - button "Overview" [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: Overview
+        - button "Papers" [ref=e33]:
+          - img [ref=e34]
+          - generic [ref=e37]: Papers
+        - button "Search" [ref=e38]:
+          - img [ref=e39]
+          - generic [ref=e42]: Search
+        - button "Health" [active] [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e48]: Health
+    - main [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "System Health" [level=2] [ref=e53]
+          - button "Refresh" [ref=e54]:
+            - img [ref=e55]
+            - text: Refresh
+        - generic [ref=e60]:
+          - heading "Overall System Status" [level=3] [ref=e62]
+          - generic [ref=e63]: Loading health data...
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - img [ref=e67]
+              - heading "PostgreSQL Database" [level=4] [ref=e71]
+            - generic [ref=e72]:
+              - img [ref=e73]
+              - generic [ref=e77]: Unknown
+            - paragraph [ref=e78]: Not available
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - img [ref=e81]
+              - heading "OpenSearch" [level=4] [ref=e84]
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - generic [ref=e90]: Unknown
+            - paragraph [ref=e91]: Not available
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - heading "Ollama LLM" [level=4] [ref=e109]
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - generic [ref=e115]: Unknown
+            - paragraph [ref=e116]: Not available
+        - generic [ref=e117]:
+          - heading "API Endpoints" [level=3] [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: "Health Check:"
+              - code [ref=e122]: GET /api/v1/health
+            - generic [ref=e123]:
+              - generic [ref=e124]: "Papers List:"
+              - code [ref=e125]: GET /api/v1/papers/
+            - generic [ref=e126]:
+              - generic [ref=e127]: "Hybrid Search:"
+              - code [ref=e128]: POST /api/v1/hybrid-search/
+            - generic [ref=e129]:
+              - generic [ref=e130]: "API Documentation:"
+              - code [ref=e131]: GET /docs
+  - generic [ref=e136] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e137] [cursor=pointer]:
+      - img [ref=e138] [cursor=pointer]
+    - generic [ref=e142] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e143] [cursor=pointer]:
+        - generic [ref=e144] [cursor=pointer]:
+          - generic [ref=e145] [cursor=pointer]: "0"
+          - generic [ref=e146] [cursor=pointer]: "1"
+        - generic [ref=e147] [cursor=pointer]: Issue
+      - button "Collapse issues badge" [ref=e148] [cursor=pointer]:
+        - img [ref=e149] [cursor=pointer]
+  - alert [ref=e151]
+```

@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic:
+            - heading "arXiv Paper Curator" [level=1]
+            - paragraph: Advanced RAG System Dashboard
+        - generic [ref=e11]:
+          - button [ref=e12]:
+            - img [ref=e13]
+          - generic:
+            - generic: System Issues
+    - navigation [ref=e18]:
+      - generic [ref=e20]:
+        - button "Overview" [ref=e21]:
+          - img [ref=e22]
+          - generic: Overview
+        - button "Papers" [active] [ref=e24]:
+          - img [ref=e25]
+          - generic: Papers
+        - button "Search" [ref=e27]:
+          - img [ref=e28]
+          - generic: Search
+        - button "Health" [ref=e31]:
+          - img [ref=e32]
+          - generic: Health
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic:
+            - heading "Research Papers" [level=2]
+            - paragraph: 0 papers available in the database
+          - button "Refresh" [ref=e40]:
+            - img [ref=e41]
+            - text: Refresh
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - generic: Failed to fetch papers
+  - generic [ref=e54] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e55] [cursor=pointer]:
+      - img [ref=e56] [cursor=pointer]
+    - generic [ref=e59] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e60] [cursor=pointer]:
+        - generic:
+          - generic: "2"
+        - generic: Issue
+      - button "Collapse issues badge" [ref=e61] [cursor=pointer]:
+        - img [ref=e62] [cursor=pointer]
+  - alert [ref=e64]
+```

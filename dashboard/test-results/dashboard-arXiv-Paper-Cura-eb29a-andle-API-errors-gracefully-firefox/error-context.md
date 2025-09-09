@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button "previous" [disabled] [ref=e8]:
+              - img "previous" [ref=e9]
+            - generic [ref=e11]:
+              - generic [ref=e12]: 1/
+              - generic [ref=e13]: "2"
+            - button "next" [ref=e14] [cursor=pointer]:
+              - img "next" [ref=e15] [cursor=pointer]
+          - img
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - generic "Latest available version is detected (15.5.2)." [ref=e21]: Next.js 15.5.2
+            - generic [ref=e22]: Turbopack
+          - img
+      - dialog "Console TypeError" [ref=e24]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e31]: Console TypeError
+            - generic [ref=e32]:
+              - button "Copy Error Info" [ref=e33] [cursor=pointer]:
+                - img [ref=e34] [cursor=pointer]
+              - button "No related documentation found" [disabled] [ref=e36]:
+                - img [ref=e37]
+              - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e39] [cursor=pointer]:
+                - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                - img [ref=e40] [cursor=pointer]
+          - paragraph [ref=e49]: NetworkError when attempting to fetch resource.
+        - generic [ref=e51]:
+          - generic [ref=e52]: "1"
+          - generic [ref=e53]: "2"
+    - generic [ref=e58] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e59] [cursor=pointer]:
+        - img [ref=e60] [cursor=pointer]
+      - generic [ref=e64] [cursor=pointer]:
+        - button "Open issues overlay" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66] [cursor=pointer]:
+            - generic [ref=e67] [cursor=pointer]: "1"
+            - generic [ref=e68] [cursor=pointer]: "2"
+          - generic [ref=e69] [cursor=pointer]:
+            - text: Issue
+            - generic [ref=e70] [cursor=pointer]: s
+        - button "Collapse issues badge" [ref=e71] [cursor=pointer]:
+          - img [ref=e72] [cursor=pointer]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e76]'
+```

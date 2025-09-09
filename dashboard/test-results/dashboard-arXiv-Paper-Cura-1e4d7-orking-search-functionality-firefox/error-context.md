@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic [ref=e14]:
+            - heading "arXiv Paper Curator" [level=1] [ref=e15]
+            - paragraph [ref=e16]: Advanced RAG System Dashboard
+        - generic [ref=e17]:
+          - button [ref=e18]:
+            - img [ref=e19]
+          - generic [ref=e25]: System Issues
+    - navigation [ref=e26]:
+      - generic [ref=e28]:
+        - button "Overview" [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: Overview
+        - button "Papers" [ref=e33]:
+          - img [ref=e34]
+          - generic [ref=e37]: Papers
+        - button "Search" [active] [ref=e38]:
+          - img [ref=e39]
+          - generic [ref=e42]: Search
+        - button "Health" [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e48]: Health
+    - main [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Hybrid Search" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Search through research papers using both keyword and semantic search
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - textbox "Search for papers... (e.g., 'machine learning', 'neural networks', 'computer vision')" [ref=e62]
+          - button "Search" [disabled] [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e65]
+              - text: Search
+        - generic [ref=e68]:
+          - img [ref=e69]
+          - generic [ref=e73]: Failed to fetch papers
+  - generic [ref=e78] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e79] [cursor=pointer]:
+      - img [ref=e80] [cursor=pointer]
+    - generic [ref=e84] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e85] [cursor=pointer]:
+        - generic [ref=e86] [cursor=pointer]:
+          - generic [ref=e87] [cursor=pointer]: "0"
+          - generic [ref=e88] [cursor=pointer]: "1"
+        - generic [ref=e89] [cursor=pointer]: Issue
+      - button "Collapse issues badge" [ref=e90] [cursor=pointer]:
+        - img [ref=e91] [cursor=pointer]
+  - alert [ref=e93]
+```

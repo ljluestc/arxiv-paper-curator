@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic:
+            - heading "arXiv Paper Curator" [level=1]
+            - paragraph: Advanced RAG System Dashboard
+        - generic [ref=e11]:
+          - button [ref=e12]:
+            - img [ref=e13]
+          - generic:
+            - generic: System Issues
+    - navigation [ref=e18]:
+      - generic [ref=e20]:
+        - button "Overview" [ref=e21]:
+          - img [ref=e22]
+          - generic: Overview
+        - button "Papers" [ref=e24]:
+          - img [ref=e25]
+          - generic: Papers
+        - button "Search" [ref=e27]:
+          - img [ref=e28]
+          - generic: Search
+        - button "Health" [ref=e31]:
+          - img [ref=e32]
+          - generic: Health
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic:
+          - heading "Hybrid Search" [level=2]
+          - paragraph: Search through research papers using both keyword and semantic search
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - img [ref=e43]
+            - textbox "Search for papers... (e.g., 'machine learning', 'neural networks', 'computer vision')" [active] [ref=e46]
+          - button "Search" [disabled] [ref=e47]:
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - text: Search
+        - generic [ref=e52]:
+          - img [ref=e53]
+          - generic: Failed to fetch papers
+  - generic [ref=e59] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e60] [cursor=pointer]:
+      - img [ref=e61] [cursor=pointer]
+    - generic [ref=e64] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e65] [cursor=pointer]:
+        - generic:
+          - generic: "2"
+        - generic: Issue
+      - button "Collapse issues badge" [ref=e66] [cursor=pointer]:
+        - img [ref=e67] [cursor=pointer]
+  - alert [ref=e69]
+```

@@ -1,0 +1,101 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic:
+            - heading "arXiv Paper Curator" [level=1]
+            - paragraph: Advanced RAG System Dashboard
+        - generic [ref=e11]:
+          - button [ref=e12]:
+            - img [ref=e13]
+          - generic:
+            - generic: System Issues
+    - navigation [ref=e18]:
+      - generic [ref=e20]:
+        - button "Overview" [ref=e21]:
+          - img [ref=e22]
+          - generic: Overview
+        - button "Papers" [ref=e24]:
+          - img [ref=e25]
+          - generic: Papers
+        - button "Search" [ref=e27]:
+          - img [ref=e28]
+          - generic: Search
+        - button "Health" [ref=e31]:
+          - img [ref=e32]
+          - generic: Health
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic:
+          - generic:
+            - heading "Dashboard Overview" [level=2]
+            - paragraph: System status and research paper statistics
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - img [ref=e43]
+              - generic:
+                - generic: "0"
+                - generic: Papers in database
+            - heading "Total Papers" [level=3]
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - img [ref=e49]
+              - generic:
+                - generic: "0"
+                - generic: Unique categories
+            - heading "Categories" [level=3]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - generic:
+                - generic: "0"
+                - generic: Unique authors
+            - heading "Authors" [level=3]
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e60]
+              - generic:
+                - generic: Issues
+                - generic: Overall health
+            - heading "System Status" [level=3]
+        - generic:
+          - generic:
+            - heading "Top Categories" [level=3]
+          - generic:
+            - heading "Recent Papers" [level=3]
+        - generic [ref=e62]:
+          - heading "System Services" [level=3]
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e66]
+              - generic:
+                - generic: PostgreSQL
+                - generic: Unknown
+            - generic [ref=e70]:
+              - img [ref=e72]
+              - generic:
+                - generic: OpenSearch
+                - generic: Unknown
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic:
+                - generic: Ollama LLM
+                - generic: Unknown
+  - generic [ref=e84] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e85] [cursor=pointer]:
+      - img [ref=e86] [cursor=pointer]
+    - generic [ref=e89] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e90] [cursor=pointer]:
+        - generic:
+          - generic: "2"
+        - generic: Issue
+      - button "Collapse issues badge" [ref=e91] [cursor=pointer]:
+        - img [ref=e92] [cursor=pointer]
+  - alert [ref=e94]
+```
